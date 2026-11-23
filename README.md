@@ -35,4 +35,4 @@ Each project also has its own link, e.g. `showcase.digimartsng.com/#meetbook-pro
 ## To do
 
 - [x] Live links for all projects (from mmiri28.com).
-- [ ] Replace the placeholder logos for MeetBook Pro, GlowReserve and BizHub with the official ones if they exist.
+- [x] Official app icons, taken from each app's own repo.

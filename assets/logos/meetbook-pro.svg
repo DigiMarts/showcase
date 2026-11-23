@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="MeetBook Pro">
-  <rect width="160" height="160" rx="36" fill="#0E5C4A"/>
-  <!-- open ledger -->
-  <path d="M28 52 Q54 44 80 54 V118 Q54 108 28 116 Z" fill="#E9F7F1"/>
-  <path d="M132 52 Q106 44 80 54 V118 Q106 108 132 116 Z" fill="#CDEFE2"/>
-  <!-- people in a circle above the book -->
-  <circle cx="80" cy="34" r="8" fill="#F4B942"/>
-  <circle cx="56" cy="40" r="6" fill="#F4B942" opacity=".85"/>
-  <circle cx="104" cy="40" r="6" fill="#F4B942" opacity=".85"/>
-  <!-- ledger lines -->
-  <path d="M38 68 Q54 64 70 69 M38 80 Q54 76 70 81 M38 92 Q54 88 70 93" stroke="#0E5C4A" stroke-width="3" stroke-linecap="round" fill="none" opacity=".55"/>
-  <!-- tick -->
-  <path d="M92 82 l10 10 l18 -22" stroke="#0E5C4A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#1B7A4A"/><g transform="translate(256 256) scale(1.0) translate(-256 -256)"><circle cx="256" cy="256" r="196" fill="none" stroke="#FFFFFF" stroke-width="9"/><g transform="translate(256 262) scale(0.78) translate(-256 -262)"><path d="M176 150 L196 116 L216 150 Z" fill="#FFF4D6"/><path d="M216 150 L236 116 L256 150 Z" fill="#FFF4D6"/><path d="M256 150 L276 116 L296 150 Z" fill="#FFF4D6"/><path d="M296 150 L316 116 L336 150 Z" fill="#FFF4D6"/><path d="M158 378 V196 L256 300 L354 196 V378" fill="none" stroke="#E8B04A" stroke-width="56" stroke-linejoin="round" stroke-linecap="round"/></g></g></svg>

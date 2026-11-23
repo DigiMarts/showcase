@@ -43,7 +43,7 @@ window.SHOWCASE_PROJECTS = [
   {
     id: "glowreserve",
     name: "GlowReserve",
-    logo: "/assets/logos/glowreserve.svg",
+    logo: "/assets/logos/glowreserve.png",
     tagline: "Beauty bookings without the back-and-forth.",
     category: "Beauty & wellness",
     status: "Live",
@@ -60,7 +60,7 @@ window.SHOWCASE_PROJECTS = [
   {
     id: "bizhub",
     name: "Business Hub",
-    logo: "/assets/logos/bizhub.svg",
+    logo: "/assets/logos/bizhub.png",
     tagline: "Know your stock. Know your profit.",
     category: "Shop management",
     status: "Live",
