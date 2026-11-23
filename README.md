@@ -34,5 +34,5 @@ Each project also has its own link, e.g. `showcase.digimartsng.com/#meetbook-pro
 
 ## To do
 
-- [ ] Add the live links for Voltwise, GlowReserve and BizHub once they're public (they show "Ask for a demo" until then).
+- [x] Live links for all projects (from mmiri28.com).
 - [ ] Replace the placeholder logos for MeetBook Pro, GlowReserve and BizHub with the official ones if they exist.

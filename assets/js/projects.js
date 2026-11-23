@@ -13,14 +13,14 @@ window.SHOWCASE_PROJECTS = [
     tagline: "Run your union or association in the open.",
     category: "Community & governance",
     status: "Live",
-    url: "https://app.mmiri28.com",
+    url: "https://meetbook-pro.mmiri28.com",
     by: "mmiri28",
     description:
-      "A record book for village unions, town associations and market trader groups. Members see what was agreed, who has paid their dues and where the money went.",
+      "Levies, meetings and votes for village unions, town associations and market trader groups. Members see what was agreed, who has paid and where the money went.",
     points: [
-      "Meeting minutes and decisions in one place",
-      "Dues and contribution tracking per member",
-      "Transparent reports leaders can share with everyone"
+      "Meetings, minutes and votes in one place",
+      "Levy and contribution tracking per member",
+      "A digital ID card for every member"
     ]
   },
   {
@@ -29,8 +29,8 @@ window.SHOWCASE_PROJECTS = [
     logo: "/assets/logos/voltwise.jpg",
     tagline: "Size it right. Buy it once.",
     category: "Solar & energy",
-    status: "Pilot",
-    url: null,
+    status: "Live",
+    url: "https://voltwise28.mmiri28.com",
     by: "mmiri28",
     description:
       "Plan and price a home or small-business solar system for Nigerian conditions. Pick your appliances and your city, and get the right inverter, battery and panel sizes with a Naira price range.",
@@ -46,8 +46,8 @@ window.SHOWCASE_PROJECTS = [
     logo: "/assets/logos/glowreserve.svg",
     tagline: "Beauty bookings without the back-and-forth.",
     category: "Beauty & wellness",
-    status: "Pilot",
-    url: null,
+    status: "Live",
+    url: "https://glowreserve.mmiri28.com",
     by: "mmiri28",
     description:
       "A booking marketplace that connects customers with beauty artists, salons, spas and skincare specialists. Clients book a slot online and get reminders by email and SMS.",
@@ -59,12 +59,12 @@ window.SHOWCASE_PROJECTS = [
   },
   {
     id: "bizhub",
-    name: "BizHub",
+    name: "Business Hub",
     logo: "/assets/logos/bizhub.svg",
     tagline: "Know your stock. Know your profit.",
     category: "Shop management",
-    status: "Pilot",
-    url: null,
+    status: "Live",
+    url: "https://bizhub28.mmiri28.com",
     by: "mmiri28",
     description:
       "Shop management for small businesses: products and stock, sales and returns, customers, expenses and staff, with reports that show real profit and net profit.",
