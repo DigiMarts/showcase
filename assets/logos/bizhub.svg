@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="BizHub">
+  <rect width="160" height="160" rx="36" fill="#1B2A3A"/>
+  <!-- shop awning -->
+  <path d="M34 54 H126 L118 34 H42 Z" fill="#F2A33A"/>
+  <path d="M34 54 q11.5 12 23 0 q11.5 12 23 0 q11.5 12 23 0 q11.5 12 23 0" fill="#F2A33A"/>
+  <!-- rising bars -->
+  <rect x="44" y="96" width="16" height="30" rx="4" fill="#5FD3A3"/>
+  <rect x="72" y="82" width="16" height="44" rx="4" fill="#5FD3A3"/>
+  <rect x="100" y="70" width="16" height="56" rx="4" fill="#5FD3A3"/>
+</svg>

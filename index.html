@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Showcase | Digital products by mmiri28, brought to you by DigiMarts</title>
+  <meta name="description" content="Apps and websites for Nigerian businesses and communities. Built by mmiri28, marketed and distributed by DigiMarts Digital Solutions & Services.">
+  <meta property="og:title" content="DigiMarts Showcase">
+  <meta property="og:description" content="Apps and websites for Nigerian businesses and communities. Built by mmiri28, marketed by DigiMarts.">
+  <meta property="og:url" content="https://showcase.digimartsng.com/">
+  <meta name="theme-color" content="#001830">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#works">Skip to the projects</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="https://digimartsng.com" aria-label="DigiMarts home">
+        <img src="/assets/img/digimarts-logo.png" alt="DigiMarts" width="200" height="60">
+        <span class="brand-tag">Showcase</span>
+      </a>
+      <a class="btn btn-wa" data-wa="general" href="https://wa.me/2349166250816" target="_blank" rel="noopener" aria-label="Talk to us on WhatsApp">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2s.2-1.1.1-1.2l-.5-.2Z"/></svg>
+        <span>Talk to us</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Built by mmiri28 · Marketed by DigiMarts</p>
+        <h1>Digital tools that work for Nigerian businesses and communities</h1>
+        <p class="lead">Tap a logo to see what each product does and how to get it for your organisation.</p>
+      </div>
+    </section>
+
+    <section id="works" class="works" aria-labelledby="works-title">
+      <div class="container">
+        <h2 id="works-title" class="sr-only">Our projects</h2>
+        <ul class="grid" id="grid" role="list"></ul>
+        <noscript><p class="noscript">Please turn on JavaScript to see the projects, or <a href="https://wa.me/2349166250816">message DigiMarts on WhatsApp</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <h2>Want something like this for your business?</h2>
+          <p>Tell us what you need. DigiMarts handles the conversation, and mmiri28 builds it.</p>
+        </div>
+        <a class="btn btn-light" data-wa="build" href="https://wa.me/2349166250816" target="_blank" rel="noopener">Start on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="credit">
+        <a href="https://mmiri28.com" target="_blank" rel="noopener" class="credit-logo">
+          <img src="/assets/logos/mmiri28.svg" alt="" width="36" height="40">
+          <span><small>Built by</small>mmiri28</span>
+        </a>
+        <a href="https://digimartsng.com" class="credit-logo">
+          <img src="/assets/img/favicon-32.png" alt="" width="32" height="32">
+          <span><small>Marketed &amp; distributed by</small>DigiMarts</span>
+        </a>
+      </div>
+      <p class="contact">
+        <a href="tel:+2349166250816">+234 916 625 0816</a> ·
+        <a href="mailto:digimartsdigitalsolutions@gmail.com">digimartsdigitalsolutions@gmail.com</a>
+      </p>
+      <p class="fine">© <span id="year"></span> DigiMarts Digital Solutions &amp; Services, Kaduna. Products © their makers.</p>
+    </div>
+  </footer>
+
+  <dialog id="detail" class="detail" aria-labelledby="detail-name">
+    <form method="dialog" class="detail-close-form">
+      <button class="detail-close" aria-label="Close">×</button>
+    </form>
+    <div class="detail-head">
+      <img id="detail-logo" src="" alt="" width="88" height="88">
+      <div>
+        <p id="detail-category" class="detail-category"></p>
+        <h3 id="detail-name"></h3>
+        <p id="detail-tagline" class="detail-tagline"></p>
+      </div>
+    </div>
+    <p id="detail-desc"></p>
+    <ul id="detail-points" class="detail-points"></ul>
+    <p class="detail-meta"><span id="detail-status" class="pill"></span> <span id="detail-by"></span></p>
+    <div class="detail-actions">
+      <a id="detail-visit" class="btn btn-primary" target="_blank" rel="noopener">Visit</a>
+      <a id="detail-wa" class="btn btn-ghost" target="_blank" rel="noopener">Ask DigiMarts about it</a>
+    </div>
+  </dialog>
+
+  <script src="/assets/js/projects.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

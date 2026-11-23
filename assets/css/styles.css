@@ -1,0 +1,170 @@
+/* DigiMarts Showcase. Brand colours taken from the DigiMarts website. */
+:root {
+  --navy-900: #001226;
+  --navy: #001830;
+  --royal: #002888;
+  --blue: #1F4FE0;
+  --blue-deep: #1638B0;
+  --violet: #2828A0;
+  --sky: #E8F0F8;
+  --ice: #F5F8FC;
+  --surface: #FFFFFF;
+  --ink: #0B1A33;
+  --ink-soft: #3A4A63;
+  --muted: #5A6A82;
+  --line: #D9E3F0;
+  --on-dark: #C9D6EE;
+  --accent-on-dark: #9DB7FF;
+
+  --font-display: "Montserrat", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius: 20px;
+  --radius-lg: 28px;
+  --container: 1120px;
+  --shadow: 0 1px 2px rgba(0, 24, 48, .06), 0 8px 24px rgba(0, 24, 48, .08);
+  --shadow-lift: 0 2px 6px rgba(0, 24, 48, .08), 0 22px 44px rgba(0, 40, 136, .16);
+  --grad: linear-gradient(135deg, var(--navy) 0%, var(--royal) 58%, var(--violet) 100%);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--ice); color: var(--ink);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: var(--blue); }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.15; margin: 0 0 .5em; }
+.container { max-width: var(--container); margin: 0 auto; padding: 0 20px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.skip { position: absolute; left: -999px; top: 8px; background: #fff; padding: 8px 14px; border-radius: 8px; z-index: 10; }
+.skip:focus { left: 8px; }
+:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 20px; border-radius: 999px; border: 2px solid transparent;
+  font-weight: 700; font-size: 15px; text-decoration: none; cursor: pointer;
+  transition: transform .15s ease, background .15s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-wa, .btn-primary { background: var(--blue); color: #fff; }
+.btn-wa:hover, .btn-primary:hover { background: var(--blue-deep); color: #fff; }
+.btn-ghost { background: transparent; color: var(--blue); border-color: var(--blue); }
+.btn-ghost:hover { background: var(--sky); color: var(--blue-deep); }
+.btn-light { background: #fff; color: var(--royal); }
+.btn-light:hover { color: var(--blue-deep); }
+
+/* ---------- Header ---------- */
+.topbar { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
+.topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 12px; padding-bottom: 12px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.brand img { width: 148px; height: auto; }
+.brand-tag {
+  font-family: var(--font-display); font-weight: 800; font-size: 13px; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--royal); background: var(--sky);
+  padding: 4px 10px; border-radius: 999px;
+}
+
+/* ---------- Hero ---------- */
+.hero { background: var(--grad); color: #fff; padding: clamp(40px, 8vw, 84px) 0 clamp(90px, 12vw, 130px); }
+.eyebrow { color: var(--accent-on-dark); font-weight: 700; letter-spacing: .06em; text-transform: uppercase; font-size: 13px; margin: 0 0 14px; }
+.hero h1 { font-size: clamp(28px, 5vw, 46px); max-width: 20ch; }
+.lead { color: var(--on-dark); font-size: clamp(17px, 2.2vw, 19px); max-width: 52ch; margin: 0; }
+
+/* ---------- Logo grid ---------- */
+.works { margin-top: clamp(-90px, -9vw, -60px); padding-bottom: clamp(48px, 8vw, 80px); }
+.grid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
+}
+.tile {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  padding: 26px 18px 22px; border: 1px solid var(--line); border-radius: var(--radius-lg);
+  background: var(--surface); box-shadow: var(--shadow);
+  font: inherit; color: inherit; cursor: pointer; text-align: center;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.tile:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); border-color: #B6C6DE; }
+.tile img { width: 96px; height: 96px; object-fit: contain; border-radius: 22px; margin-bottom: 6px; }
+.tile-name { font-family: var(--font-display); font-weight: 800; font-size: 18px; color: var(--ink); }
+.tile-cat { color: var(--muted); font-size: 14px; }
+
+.pill {
+  display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .03em;
+  padding: 3px 10px; border-radius: 999px; background: var(--sky); color: var(--royal);
+}
+.pill-live { background: #E3F6EC; color: #11683F; }
+.pill-pilot { background: #FFF3DC; color: #8A5A00; }
+.pill-coming-soon { background: #EEE9FA; color: #4B2E9C; }
+
+/* ---------- CTA ---------- */
+.cta { padding-bottom: clamp(48px, 8vw, 80px); }
+.cta-inner {
+  background: var(--grad); color: #fff; border-radius: var(--radius-lg);
+  padding: clamp(24px, 4vw, 40px); display: flex; flex-wrap: wrap; gap: 20px;
+  align-items: center; justify-content: space-between;
+}
+.cta h2 { font-size: clamp(22px, 3vw, 28px); }
+.cta p { color: var(--on-dark); margin: 0; max-width: 48ch; }
+
+/* ---------- Footer ---------- */
+.footer { background: var(--navy-900); color: var(--on-dark); padding: 36px 0; font-size: 15px; }
+.footer a { color: #fff; }
+.credit { display: flex; flex-wrap: wrap; gap: 28px; margin-bottom: 18px; }
+.credit-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; font-family: var(--font-display); font-weight: 800; font-size: 18px; }
+.credit-logo img { border-radius: 8px; }
+.credit-logo small { display: block; font-family: var(--font-body); font-weight: 500; font-size: 12px; color: var(--on-dark); }
+.contact { margin: 0 0 6px; }
+.fine { margin: 0; color: #8597B5; font-size: 13px; }
+
+/* ---------- Detail dialog ---------- */
+.detail {
+  width: min(560px, calc(100% - 28px)); max-height: calc(100% - 28px);
+  border: 0; border-radius: var(--radius-lg); padding: 28px; color: var(--ink);
+  box-shadow: 0 30px 80px rgba(0, 18, 38, .35);
+}
+.detail::backdrop { background: rgba(0, 18, 38, .55); }
+.detail[open] { animation: rise .2s ease-out; }
+@keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+.detail-close-form { position: absolute; top: 12px; right: 12px; margin: 0; }
+.detail-close {
+  width: 40px; height: 40px; border-radius: 50%; border: 0; background: var(--sky);
+  font-size: 24px; line-height: 1; cursor: pointer; color: var(--ink);
+}
+.detail-head { display: flex; gap: 16px; align-items: center; margin-bottom: 14px; padding-right: 40px; }
+.detail-head img { width: 88px; height: 88px; object-fit: contain; border-radius: 20px; flex: none; }
+.detail-head h3 { font-size: 24px; margin: 0; }
+.detail-category { margin: 0; color: var(--muted); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+.detail-tagline { margin: 2px 0 0; color: var(--ink-soft); font-weight: 600; }
+.detail-points { padding-left: 20px; margin: 0 0 16px; }
+.detail-points li { margin-bottom: 4px; }
+.detail-meta { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+.detail-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.detail-actions [hidden] { display: none; }
+
+.noscript { background: #fff; padding: 20px; border-radius: var(--radius); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ---------- Small phones ---------- */
+@media (max-width: 480px) {
+  .brand img { width: 118px; }
+  .brand-tag { font-size: 11px; padding: 3px 8px; }
+  .btn-wa { padding: 10px 12px; }
+  .btn-wa span { display: none; }
+  .tile img { width: 80px; height: 80px; }
+}
+@media (max-width: 480px) {
+  .grid { gap: 12px; }
+  .tile { padding: 20px 10px 16px; }
+  .tile-name { font-size: 16px; }
+  .tile-cat { font-size: 13px; line-height: 1.3; }
+}

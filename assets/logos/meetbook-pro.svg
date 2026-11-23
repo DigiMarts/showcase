@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="MeetBook Pro">
+  <rect width="160" height="160" rx="36" fill="#0E5C4A"/>
+  <!-- open ledger -->
+  <path d="M28 52 Q54 44 80 54 V118 Q54 108 28 116 Z" fill="#E9F7F1"/>
+  <path d="M132 52 Q106 44 80 54 V118 Q106 108 132 116 Z" fill="#CDEFE2"/>
+  <!-- people in a circle above the book -->
+  <circle cx="80" cy="34" r="8" fill="#F4B942"/>
+  <circle cx="56" cy="40" r="6" fill="#F4B942" opacity=".85"/>
+  <circle cx="104" cy="40" r="6" fill="#F4B942" opacity=".85"/>
+  <!-- ledger lines -->
+  <path d="M38 68 Q54 64 70 69 M38 80 Q54 76 70 81 M38 92 Q54 88 70 93" stroke="#0E5C4A" stroke-width="3" stroke-linecap="round" fill="none" opacity=".55"/>
+  <!-- tick -->
+  <path d="M92 82 l10 10 l18 -22" stroke="#0E5C4A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
